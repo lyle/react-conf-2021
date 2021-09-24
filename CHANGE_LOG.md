@@ -40,3 +40,8 @@ git commit -m "Initial Commit with React Create"
 - Made an UploadArea component, and a utility for said.
 - Pulled the react logo
 - put some styling in the main css file - not happy with this - clean it up later?
+
+## 3) Add the Canvas
+
+- Create an ImageCanvas Component that renders the image
+- Provide a toggle for Cover and Fit of the image

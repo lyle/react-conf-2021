@@ -23,3 +23,13 @@ code {
 .error {
   background-color: rgba(255, 0, 0, 0.5);
 }
+
+.our-canvas {
+  border: 1px solid gray;
+}
+
+.toggle-button {
+  background-color: transparent;
+  border: none;
+  color: gray;
+}
