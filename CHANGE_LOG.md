@@ -20,6 +20,8 @@ Create a TypeScript React App
 npx create-react-app . --template typescript
 ```
 
+Learn more about [create-react-app](https://create-react-app.dev/).
+
 > While this was running Visual Studio Code brought up a message about how git was having trouble keeping up and suggested that we add `/node_modules` to the project's [.gitignore](.gitignore) file. - I just said yes to this dialog.
 
 I decided that documenting things would be good so I made this file, and moved the react-create generated README.md file to be `react-create-README.md` - and then made a README.md for this project.
@@ -32,3 +34,9 @@ I then made the first commit by running these two commands:
 git add .
 git commit -m "Initial Commit with React Create"
 ```
+
+## 2) Add a File Drop Area
+
+- Made an UploadArea component, and a utility for said.
+- Pulled the react logo
+- put some styling in the main css file - not happy with this - clean it up later?
