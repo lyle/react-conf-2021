@@ -11,11 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.actions {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  padding-top: 1em;
+  align-items: self-end;
+}
 
-.drop-zone {
+.drop-zone,
+.paste-message {
   padding: 2em;
   border: 2px gray solid;
   border-radius: 20%;
+}
+.paste-message {
+  justify-items: flex-end;
+}
+.paste-message:hover {
+  border-color: black;
+  cursor: pointer;
+  background-color: rgba(200, 200, 200, 0.5);
 }
 .focused {
   background-color: rgba(200, 200, 200, 0.5);

@@ -45,3 +45,11 @@ git commit -m "Initial Commit with React Create"
 
 - Create an ImageCanvas Component that renders the image
 - Provide a toggle for Cover and Fit of the image
+
+## 4) Start the On Paste handling
+
+- Create a PasteMessage Component
+- Add an event listener for `onpaste`
+- Add a "button" for using `navigator.clipboard`
+- Ensure we always use HTTPS
+- Small main page layout cleanup

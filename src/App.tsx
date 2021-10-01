@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import { ImageCanvas } from "./components/ImageCanvas";
+import { PasteMessage } from "./components/PasteMessage";
 import { UploadArea } from "./components/UploadArea";
 import { ScaleType } from "./utils/image-scaling-utils";
 const WIDTH = 600;
@@ -8,9 +9,11 @@ const HEIGHT = 400;
 function App() {
   const [image, setImage] = useState<HTMLImageElement>();
   const [scaleType, setScaleType] = useState<ScaleType>(ScaleType.COVER);
+
   return (
     <div className="App">
       <header className="App-header">
+        <h3>Add an image</h3>
         <button
           className="toggle-button"
           onClick={(e) => {
@@ -28,12 +31,18 @@ function App() {
           widthTarget={WIDTH}
           heightTarget={HEIGHT}
         />
-        <h1>Add an image</h1>
-        <UploadArea
-          handleImage={(img) => {
-            setImage(img);
-          }}
-        ></UploadArea>
+        <div className="actions">
+          <UploadArea
+            handleImage={(img) => {
+              setImage(img);
+            }}
+          ></UploadArea>
+          <PasteMessage
+            handleImage={(img) => {
+              setImage(img);
+            }}
+          />
+        </div>
       </header>
     </div>
   );
