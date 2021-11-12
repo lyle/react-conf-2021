@@ -11,6 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.react-conf {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
 .actions {
   display: flex;
   flex-direction: row;

@@ -53,3 +53,8 @@ git commit -m "Initial Commit with React Create"
 - Add a "button" for using `navigator.clipboard`
 - Ensure we always use HTTPS
 - Small main page layout cleanup
+
+## 5) Add Links
+
+- In the talk I mention a bunch of things - it seems like having these things all in one place would be useful.
+- Add React Conf and logo to the app

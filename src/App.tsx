@@ -4,6 +4,7 @@ import { ImageCanvas } from "./components/ImageCanvas";
 import { PasteMessage } from "./components/PasteMessage";
 import { UploadArea } from "./components/UploadArea";
 import { ScaleType } from "./utils/image-scaling-utils";
+import logo from "./logo.svg";
 const WIDTH = 600;
 const HEIGHT = 400;
 function App() {
@@ -13,6 +14,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h4 className="react-conf">
+          <img src={logo} className="App-logo" alt="logo" /> React Conf 2021
+        </h4>
         <h3>Add an image</h3>
         <button
           className="toggle-button"
