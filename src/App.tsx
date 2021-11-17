@@ -17,7 +17,7 @@ function App() {
         <h4 className="react-conf">
           <img src={logo} className="App-logo" alt="logo" /> React Conf 2021
         </h4>
-        <h3>Add an image</h3>
+        <h3>UI Tools for Artists</h3>
         <button
           className="toggle-button"
           onClick={(e) => {
