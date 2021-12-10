@@ -4,6 +4,9 @@
 
 This repo was created to share source code for my (Lyle) December 8th 2021 React Conf lighting talk.
 
+Here is the video of my talk:
+[![Video of UI Tools for Artists React Talk](./public/youtube-talk-image.jpeg)](https://www.youtube.com/watch?v=b3l4WxipFsE&list=PLNG_1j3cPCaZZ7etkzWA7JfdmKWT0pMsa&t=1s)
+
 Here are some of the things I referred to in the talk:
 
 - My Netflix Culture Podcast [WeAreNetflix](https://jobs.netflix.com/podcast)
